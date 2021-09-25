@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header, footer {
+	background-color: gray;
+	color: white;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 20px;
+}
+
+.card p {
+	text-align: center;
+}
