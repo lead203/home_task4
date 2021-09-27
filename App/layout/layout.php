@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css?v3" />
 </head>
 <body>
-	<?php require('./header.html'); ?>
+	<?php require('App/view/header.html'); ?>
 
 	<main>
 		<?php
@@ -15,6 +15,6 @@
 		?>
 	</main>
 
-	<?php require('./footer.html'); ?>
+	<?php require('App/view/footer.html'); ?>
 </body>
 </html>
